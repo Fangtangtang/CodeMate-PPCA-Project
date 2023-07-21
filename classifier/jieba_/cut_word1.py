@@ -3,9 +3,9 @@ import jieba
 import re
 file_name=[
      "highQualityTest",
-    #  "highQualityTrain",
-    #  "lowQualityTest",
-    #  "lowQualityTrain"
+     "highQualityTrain",
+     "lowQualityTest",
+     "lowQualityTrain"
 ]
 
 def Process(str,name):
