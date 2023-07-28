@@ -91,9 +91,7 @@ async def main():
         task2 = asyncio.create_task(parse_page())      
         task_list.append(task2)
 
-        await asyncio.gather(*task_list,
-                            #  return_exceptions=True
-                             )
+        await asyncio.gather(*task_list)
         global links
         if(len(links)>3000 or flag==False and len(links)>2800):
             driver.quit()
