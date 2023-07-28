@@ -38,3 +38,9 @@
   - `train.py`：训练word2vec
   - `use_word2vec.py`：用训练得到的word2vec词向量化
 
+## 使用bert分类任务
+使用bert预训练模型，连接下游文本二分类任务。
+- 模型训练代码：https://www.kaggle.com/code/fangtangtang/bert-based-binary-classification
+
+将在测试集上表现较好的模型作为基座做集成学习的投票。
+- 投票分类器代码：https://www.kaggle.com/code/fangtangtang/bert-based-votingclassifier
