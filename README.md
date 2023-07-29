@@ -43,4 +43,6 @@
 - 模型训练代码：https://www.kaggle.com/code/fangtangtang/bert-based-binary-classification
 
 将在测试集上表现较好的模型作为基座做集成学习的投票。
-- 投票分类器代码：https://www.kaggle.com/code/fangtangtang/bert-based-votingclassifier
+
+- 投票分类器代码：https://www.kaggle.com/code/fangtangtang/votingclassifier
+  - 正确率最高的为version11
